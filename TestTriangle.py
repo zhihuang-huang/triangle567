@@ -2,11 +2,9 @@
 """
 Updated Jan 21, 2018
 The primary goal of this file is to demonstrate a simple unittest implementation
-@author: jrr
-@author: rk
+@author: zhiqiang huang
 """
 import unittest
-import math
 from Triangle import classifyTriangle
 
 
