@@ -8,7 +8,7 @@ The primary goal of this file is to demonstrate a simple python program to class
 """
 
 
-def classifyTriangle(a, b, c):
+def classify_triangle(a, b, c):
     """    Your correct code goes here...  Fix the faulty logic below until the code passes all of you test cases. 
     This function returns a string with the type of triangle from three integer values 
     corresponding to the lengths of the three sides of the Triangle.
@@ -39,7 +39,7 @@ def classifyTriangle(a, b, c):
     if ((a * a) + (b * b)) == (c * c) or ((b * b) + (c * c)) == (a * a) or ((a * a) + (c * c)) == (b * b):
         angle = 'Right'
     else:
-        angel = ''
+        angle = ''
 
     if a == b and b == c:
         return angle + 'Equilateral'
@@ -49,8 +49,8 @@ def classifyTriangle(a, b, c):
         return angle + 'Isoceles'
 
 
-def main():
+"""def main():
     print(classifyTriangle(2, 3, 2))
 
 
-main()
+main()"""
